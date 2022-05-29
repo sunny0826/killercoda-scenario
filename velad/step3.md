@@ -30,9 +30,10 @@ vela port-forward -n vela-system addon-velaux 9082:80 --address='0.0.0.0'
 ```{{exec}}
 
 🎉 Congrats! You have successfully installed VelaUX.
-Now access Apache using this link:
 
-[ACCESS APACHE]({{TRAFFIC_HOST1_9082}})
+Now access velaux using this link:
+
+[ACCESS VELAUX]({{TRAFFIC_HOST1_9082}})
 
 It's also possible to access ports using the top-right navigation in the terminal.
 
