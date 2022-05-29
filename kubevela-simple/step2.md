@@ -18,7 +18,7 @@ run `velad status`
 RUN 
 ```
 velad status
-```{{copy}}
+```{{exec}}
 
 You could use vela CLI now. try check all available component types. Later we'll use `webservice` type component when deploying first app
 
