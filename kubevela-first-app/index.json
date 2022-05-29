@@ -1,6 +1,6 @@
 {
     "title": "Deploy First Application with KubeVela",
-    "description": "",
+    "description": "Welcome to KubeVela! This scenario will guide you to deliver your first app.",
     "details": {
       "intro": {
         "text": "intro.md"
