@@ -9,6 +9,18 @@
         {
           "title": "Install VelaD",
           "text": "step1.md"
+        },
+        {
+          "title": "Use VelaD to setup KubeVela",
+          "text": "step2.md"
+        },
+        {
+          "title": " Install VelaUX",
+          "text": "step3.md"
+        },
+        {
+          "title": "Deliver your first app",
+          "text": "step4.md"
         }
       ],
       "finish": {
