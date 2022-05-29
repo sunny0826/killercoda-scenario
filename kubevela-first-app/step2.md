@@ -1,5 +1,3 @@
-## Deploy First Application
-
 ### Deploy a classic application
 
 Below is a classic KubeVela application which contains one component with one operational trait, basically, it means to deploy a container image as webservice with one replica. Additionally, there are three policies and workflow steps, it means to deploy the application into two different environments with different configurations.
@@ -77,8 +75,14 @@ The application will become a `workflowSuspending` status, it means the workflow
 We can check the application by:
 
 ```
-vela port-forward first-vela-app 8000:8000
+vela port-forward first-vela-app 8000:8000 --address='0.0.0.0'
 ```{{exec}}
+
+>Warning: `--address='0.0.0.0'` is just to adapt to the [killercoda.com](https://github.com/killercoda/scenario-examples/blob/main/network-traffic/step1.md) platform and is not a requirement!
+
+Choose `> Cluster: local | Namespace: default | Kind: Service | Name: express-server` for visit.
+
+[visit website]({{TRAFFIC_HOST1_8000}})
 
 It will invoke your browser and your can see the website:
 

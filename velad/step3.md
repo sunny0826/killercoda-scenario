@@ -26,7 +26,7 @@ apiserver-97cfbd6f9-h854b apiserver 2022-05-26T08:14:01.279764100Z {"level":"inf
 Do as the output says, port-forward velaux and choose "Cluster: local | Namespace: vela-system | Kind: Service | Name: velaux"
 
 ```
-vela port-forward -n vela-system addon-velaux 9082:80
+vela port-forward -n vela-system addon-velaux 9082:80 --address='0.0.0.0'
 ```{{exec}}
 
 🎉 Congrats! You have successfully installed VelaUX.
