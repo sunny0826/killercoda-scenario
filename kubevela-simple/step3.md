@@ -6,7 +6,7 @@ VelaUX isn't required for KubeVela, but it is an excellent entry to get started.
 VelaD has prepared all VelaUX resources (images, addon manifests) for you. Just like it hints when `velad install`, you can enable VelaUX by:
 
 ```
-vela addon enable /Users/<user>/.vela/addons/velaux
+vela addon enable /root/.vela/addons/velaux
 ```{{exec}}
 
 Here, you have to replace <user> with your own username. 
@@ -31,7 +31,11 @@ vela port-forward -n vela-system addon-velaux 9082:80
 
 🎉 Congrats! You have successfully installed VelaUX.
 Now access Apache using this link:
+
 [ACCESS APACHE]({{TRAFFIC_HOST1_9082}})
+
 It's also possible to access ports using the top-right navigation in the terminal.
+
 Or we can display the link to that page:
+
 [ACCESS PORTS]({{TRAFFIC_SELECTOR}})
