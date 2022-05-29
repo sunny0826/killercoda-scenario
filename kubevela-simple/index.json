@@ -1,0 +1,22 @@
+{
+    "title": "Setup KubeVela and deliver your first app",
+    "description": "VelaD can help you set up KubeVela on your computer",
+    "details": {
+      "intro": {
+        "text": "intro.md"
+      },
+      "steps": [
+        {
+          "title": "Install VelaD",
+          "text": "step1.md"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-1node"
+    }
+  }
+  
